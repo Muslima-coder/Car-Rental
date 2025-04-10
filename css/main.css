@@ -53,7 +53,33 @@
       }
     }
   }
+  @media (max-width:640px){
+    .title-dream{
+      max-width: 321px;
+      &>h2{
+        font-size: 24px;
+        width: 100%;
+      }
+    }
+    &>p{
+      font-size: 12px;
+      line-height: 100%;
+      
+    }
+    .Tablet{
+      margin: 0 auto;
 
+      &>li{
+        width: 358px;
+      }
+    }
+    .button-wrapper{
+
+      &>button{
+        padding: 8px 10px;
+      }
+    }
+  }
   @media (max-width:1140px){
    .Similarities{
     display: flex;
@@ -119,4 +145,7 @@
     background-size:cover ;
     background-position: bottom center;
    }
+}
+@media (max-width:640px){
+  
 }

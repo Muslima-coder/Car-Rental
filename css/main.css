@@ -36,16 +36,21 @@
     border-radius: 20px;
     height: 500px;
   }
-  @media (min-width:1155px){
+  @media (max-width:1176px){
     .Tablet{
+      max-width: 900px ;
       margin: 0 auto;
-      width: 800px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
   }
-  @media (max-width:850px){
+
+  @media (max-width:928px){
     .Tablet{
+      max-width: 500px;
       margin: 0 auto;
-      width: 500px;
+      align-items: center;
 
       &>li{
         width: 600px;
@@ -67,19 +72,24 @@
       
     }
     .Tablet{
+       max-width: 384px;
+      padding: 0px;
       margin: 0 auto;
+      align-items: center;
+      text-align: center;
 
       &>li{
-        margin: 0 auto;
-        width: 358px;
         padding: 20px 0 0 20px;
+        width: 380px;
       }
     }
     .button-wrapper{
-
       &>button{
         padding: 8px 10px;
       }
+    }
+    .items-button{
+    text-align: center;
     }
   }
   @media (max-width:1140px){

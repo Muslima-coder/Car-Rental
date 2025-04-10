@@ -70,7 +70,9 @@
       margin: 0 auto;
 
       &>li{
+        margin: 0 auto;
         width: 358px;
+        padding: 20px 0 0 20px;
       }
     }
     .button-wrapper{
@@ -147,5 +149,5 @@
    }
 }
 @media (max-width:640px){
-  
+
 }

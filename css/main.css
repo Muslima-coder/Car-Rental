@@ -224,8 +224,11 @@
   }
 }
 @media (max-width:640px){
+  .more{
+    padding: 0px;
+  }
   .More-than{
-    padding: 100px 10px;
+    padding: 100px 0px;
   }
   .strong.more{
     font-weight: 500;
@@ -233,6 +236,5 @@
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
-    width: 100%;
   }
 }

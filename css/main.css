@@ -227,4 +227,12 @@
   .More-than{
     padding: 100px 10px;
   }
+  .strong.more{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 100%;
+  }
 }

@@ -28,6 +28,7 @@
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   .hero{
     background-image: url(../images/hero-bg.png);
@@ -132,7 +133,7 @@
   }
   /* Mobile */
   @media (max-width:1075px){
-    .similarities.container{
+    .similarities.content-wrapper{
       flex-direction: column;
       align-items: center;
       max-width:358px ;
@@ -169,10 +170,7 @@
   }
 }
 @media (max-width:640px){
-  .similarities.section {
-  padding: 0;
-  }
-  .similarities.container{
+  .similarities.content-wrapper{
     justify-content: center;
     flex-direction: column;
     align-items: center;

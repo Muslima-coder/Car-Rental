@@ -237,3 +237,51 @@
     text-align: center;
   }
 }
+/* Unparalleled service */
+/* Tablet */
+@media (max-width:1190px){
+
+.Unparalleled-item{
+ width: 387px;
+}
+.Unparalleled-item-div{
+  padding: 30px 25px ;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+}
+@media (max-width:850px){
+  .Unparalleled-item{
+   width: 350px;
+  }
+  .Unparalleled-item-div{
+    width: 350px;
+    padding: 25px 20px ;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &>h3{
+    width: 100%;
+    }
+  }
+  }
+  @media (max-width:752px){
+    .Unparalleled-list{
+      flex-direction: column;
+    }
+    .Unparalleled-item-div{
+      width: 350px;
+      padding: 25px 20px ;
+      border-radius: 20px;
+    }
+    .unparalled-title-wrapper{
+      max-width: 350px;
+      &>h3{
+        width: 100%;
+      }
+    }
+    }

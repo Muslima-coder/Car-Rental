@@ -24,12 +24,13 @@
     font-family:"Montserrat", sans-serif ;
   }
   .containers{
+    overflow-x: hidden;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-    overflow-x: hidden;
   }
+ 
   .hero{
     background-image: url(../images/hero-bg.png);
     padding-bottom: 346px;
@@ -103,107 +104,20 @@
   .line{
     background: linear-gradient(90deg, #EA4335 19.83%, #FBBC05 65%, #34A853 82.29%, #4285F4 100%);
   }
-  /* Similarities */
-  /* @media (max-width:1140px){
-   .Similarities{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   }
-   .Similarities-content{
-    padding: 0;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
-    }
-   .title{
-    width: 350px;
-   }
-   .text{
-   width: 300px;
-   }
-  } */
-  /* Mobile */
-  /* @media (max-width:1075px){
-    .similarities.content-wrapper{
-      flex-direction: column;
-      align-items: center;
-      max-width:358px ;
-      overflow: hidden;
-    }
-    .img-wrapper{
-      
-      .img1{
-        display: none;
-      }
-      .img2{
-        display: block;
-        width: 358px;
-        height: 444px;
-        margin: 0 auto
-      }
-     }
-    .Similarities{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-     }
-     .line-img{
-      transform:none;
-      width: 318px;
-      height: 2px;
-      align-items: center;
-     }
-     .Similarities-content{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-       width: 100%;
+  .line-tablet {
+    width: 2px; /* chiziq endi ingichka bo‘ladi */
+    height: 108px; /* balandligi uzun bo‘ladi */
+    background: linear-gradient( to bottom, #EA4335 19.83%, #FBBC05 65%, #34A853 82.29%, #4285F4 100%);
   }
+  /* Similarities part */
+.similarities-content-wrapper {
+  height: 479px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
-@media (max-width:640px){
-  .similarities.content-wrapper{
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    max-width:358px ;
-    overflow: hidden;
-  }
-  .img-wrapper{
-    
-    .img1{
-      display: none;
-    }
-    .img2{
-      display: block;
-      width: 358px;
-      height: 444px;
-  
-    }
-   }
-  .Similarities{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
-   }
-   .line-img{
-    transform:none;
-    width: 318px;
-    height: 2px;
-    align-items: center;
-    margin: 0 auto;
-   }
-   .Similarities-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-     align-items: center;
-     margin: 0 auto;
-     padding: 0px;
-}
-} */
+
+
 /* more than */
 @media (max-width:1100px){
   .More-than{

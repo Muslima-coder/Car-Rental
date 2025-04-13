@@ -26,7 +26,7 @@
         <a href="/">
           <img src="./images/Logo.svg" alt="img" width="150" height="40">
         </a>
-        <nav class="  flex items-center xl:hidden">
+        <nav class="lg:flex lg:items-center hidden">
           <a class="hover:text-[#299764] duration-400 py-[18] px-4 text-[18px] font-medium text-[#000000]"
             href="#">Categories</a>
           <a class="hover:text-[#299764] duration-400 py-[18] px-4 text-[18px] font-medium text-[#000000] flex items-center gap-[14px]"
@@ -77,7 +77,7 @@
               fill="currentColor" />
           </svg>
         </button>
-        <button class=" hidden xl:block">
+        <button class=" flex lg:hidden">
           <img src="./images/menu.svg" alt="menu img" width="40" height="20">
         </button>
       </div>
@@ -442,13 +442,13 @@
     <section>
       <div data-aos="flip-up" data-aos-duration="1800"
         class="containers similarities.container bg-[#F5F5F5] py-[100px] ">
-        <div class="similarities.content-wrapper h-[479px]  bg-[#FFFFFF]  flex  justify-between ">
+        <div class="similarities.content-wrapper px-[130px]  sm:px-[0px]  lg:h-[479px]  bg-[#FFFFFF]  lg:flex  lg:justify-between ">
             <!-- left -->
-        <div class="Similarities flex  justify-between">
-          <div class="Similarities-content max-w-[330px] pl-[45px] py-[70px] ">
+        <div class="Similarities flex  justify-between  ">
+          <div class="Similarities-content   lg:max-w-[330px] sm:flex justify-between pl-[45px] py-[70px] lg:flex-col  ">
             <div class="">
               <div class="  flex gap-[8px] mb-4 items-center">
-                <a href="https://www.google.com" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20"
+                <a  href="https://www.google.com" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10Z"
@@ -469,11 +469,14 @@
                 <a class="font-medium text-[#4285F4] text-[16px]" href="https://www.google.com" target="_blank">From
                   Google</a>
               </div>
-              <h2 class="title mb-[30px] w-full font-medium text-[30px] leading-[50px] text-[#000000]">Hear what the
+              <h2 class="title  mb-[15px]  lg:w-full font-medium text-[30px] leading-[50px] text-[#000000]">Hear what the
                 community is saying</h2>
             </div>
 
-            <div class="line w-[330px] h-[2px]"></div>
+            <div class="line  lg:w-[329px] lg:h-[2px]"></div>
+            <div class=" line-tablet flex hidden lg:hidden md:block  mr-[60px] "></div>
+            
+
             <div>
               <p class=" w-full text mt-[30px] font-medium text-[14px] text-[#555555]">More interesting reviews on Instagram</p>
               <a href="https://www.instagram.com" target="_blank">
@@ -483,17 +486,17 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> 
         <!-- Right part -->
-         <div class="bg-[#299764] w-[739px] h-[479px] rounded-tr-[20px] rounded-br-[20px] flex ">
-          <div class=" bg-[#FFFFFF] w-[420px] h-[333px] mt-[50px] ml-[40px] rounded-[16px]">
+         <div class="bg-[#299764] w-[358px] sm:w-[739px] h-[479px] rounded-tr-[0px] rounded-br-[0px] sm:rounded-tr-[20px]  sm:rounded-br-[20px] flex ">
+          <div class=" bg-[#FFFFFF] h-[385px] ml-[18px] mt-[20px] ml-[10px]  w-[326px] sm:w-[420px] sm:h-[333px] sm:mt-[50px] sm:ml-[40px] rounded-[16px]">
 
-            <div class="px-[24px] pt-[24px] mb-[14px] flex  items-center">
+            <div class="sm:px-[24px] pt-[24px] mb-[14px] flex  items-center">
               <img src="./images/Similarities.img1.svg" alt="img">
-              <div class="flex flex-col ml-[12px]"><strong>Savannah Nguyen</strong>
+              <div class="flex flex-col ml-[1px] sm:ml-[12px]"><strong>Savannah Nguyen</strong>
                 <a href="mailto:savannahnguyen@gmail.com">savannahnguyen@gmail.com</a></div>
 
-                <a class="ml-[60px]" href="https://www.google.com" target="_blank"> <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a class="ml-[15px] sm:ml-[60px]" href="https://www.google.com" target="_blank"> <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21.2768 11.2387C21.2768 10.4941 21.21 9.77822 21.0859 9.09094H11.1968V13.1525H16.8477C16.6043 14.465 15.8645 15.5771 14.7525 16.3216V18.9562H18.1459C20.1313 17.1282 21.2768 14.4364 21.2768 11.2387Z" fill="#4285F4"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1964 21.5C14.0314 21.5 16.4082 20.5597 18.1455 18.9561L14.7521 16.3215C13.8118 16.9515 12.6091 17.3238 11.1964 17.3238C8.46159 17.3238 6.14682 15.4768 5.32113 12.9949H1.81317V15.7154C3.5409 19.147 7.09182 21.5 11.1964 21.5Z" fill="#34A853"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5.32156 12.995C5.11156 12.365 4.99224 11.692 4.99224 10.9999C4.99224 10.3079 5.11156 9.63495 5.32156 9.00495V6.28448H1.8136C1.10246 7.70199 0.696777 9.30563 0.696777 10.9999C0.696777 12.6943 1.10246 14.2979 1.8136 15.7154L5.32156 12.995Z" fill="#FBBC05"/>
@@ -503,8 +506,8 @@
             </div>
             <div class="flex flex-col px-[24px]">
               <p class=" text-[14px] leading-[20px] text-[rgba(0, 0, 0, 1)] ">Sagittis sed tortor, elementum vitae varius sodales consectetur. Vitae arcu ut morbi bibendum ullamcorper feugiat. Venenatis hendrerit cursus egestas sit ornare nunc vulputate aliquam sapien. Pulvinar nunc consectetur nibh consectetur mollis mauris est mauris amet. Sed hac vehicula id et dui morbi quam pulvinar condimentum. Senectus sed varius interdum nunc, arcu vulputate massa.</p>
-              <span class=" w-[372px] mt-[25px] border-[1.5px] border-solid border-[rgba(229, 231, 234, 1)] "></span>
-              <div class="py-[25px] flex gap-[16px]">
+              <span class=" w-[294px] mt-[28px] sm:w-[372px] sm:mt-[25px] border-[1.5px] border-solid border-[rgba(229, 231, 234, 1)] "></span>
+              <div class="py-[16px]   sm:mx-[25px] flex gap-[16px]">
                 <p class="font-medium text-[14px] text-[rgba(0, 0, 0, 1)]">Star rating:</p>
                 <img src="./images/Similarities.stars-img.svg" alt="stars" width="124"
                 height="24">
@@ -513,7 +516,7 @@
             </div>
           </div>
 
-          <div class=" overflow-hidden bg-[#FFFFFF] w-[420px] h-[333px] mt-[50px] ml-[20px] rounded-tl-[16px] rounded-bl-[16px]" >
+          <div class=" hidden sm:block sm:overflow-hidden sm:bg-[#FFFFFF] sm:w-[420px] sm:h-[333px] sm:mt-[50px] sm:ml-[20px] sm:rounded-tl-[16px] sm:rounded-bl-[16px]" >
             <div class=" px-[24px] pt-[24px] mb-[14px] flex  items-center">
               <img src="./images/Similarities.img2.svg" alt="img">
               <div class="flex flex-col ml-[12px]"><strong>Ronald Richards</strong>
@@ -632,6 +635,26 @@
       </div>
     </section>
     
+    <!-- keep you safe -->
+     <section>
+      <div class="containers border-[rgba(255, 255, 255, 1)] border-[1.5px] rounded-[20px]">
+        <div class="w-[590px] pt-[40px] pl-[32px] mb-[94px]">
+          <h2 class="text-[rgba(0, 0, 0, 1)] text-[36px] mb-[10px] font-semibold">Car rental keeps you safe</h2>
+          <p class="text-rgba(85, 85, 85, 1) leading-[24px] text-[16px]"> The safety of our employees and renters is our number one priority. In addition to being confident your vehicle is cleaned and sanitized every time you rent, you can also feel confident that we will take every opportunity to enhance the health and safety measures currently practiced in our operations.</p>
+        </div>
+        <div>
+          <ul>
+            <li class="bg-[#F5F5F5]  w-[200px] h-[160px] rounded-[16px] " >
+              <svg class=" mt-[50px] ml-[150px]  " width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1184 4.06252L18.1127 4.0625H11.8872L11.8816 4.06252H10.625C10.1072 4.06252 9.6875 4.48225 9.6875 5.00002C9.6875 5.51778 10.1072 5.93752 10.625 5.93752H10.9497V12.2639C5.38509 14.8944 4.5812 22.5649 9.58274 26.2744L9.95149 26.5479C12.9498 28.7717 17.0501 28.7717 20.0485 26.5479L20.4172 26.2744C25.4188 22.5649 24.6149 14.8944 19.0502 12.2639V5.93752H19.375C19.8928 5.93752 20.3125 5.51778 20.3125 5.00002C20.3125 4.48225 19.8928 4.06252 19.375 4.06252H18.1184ZM9.87107 15.3125H20.1289C19.5636 14.7185 18.8637 14.2197 18.0345 13.8622C17.513 13.6374 17.1752 13.1239 17.1752 12.556V5.93752H12.8247V12.556C12.8247 13.1239 12.487 13.6374 11.9655 13.8622C11.1363 14.2197 10.4364 14.7185 9.87107 15.3125ZM12.5 21.25C11.8096 21.25 11.25 21.8097 11.25 22.5C11.25 23.1904 11.8096 23.75 12.5 23.75C13.1904 23.75 13.75 23.1904 13.75 22.5C13.75 21.8097 13.1904 21.25 12.5 21.25ZM15 20C15 19.3097 15.5596 18.75 16.25 18.75C16.9404 18.75 17.5 19.3097 17.5 20C17.5 20.6904 16.9404 21.25 16.25 21.25C15.5596 21.25 15 20.6904 15 20Z" fill="black"/>
+                </svg>
+                <strong>Every car is thoroughly sanitized and cleaned</strong>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+     </section>
   </main>
 
 
